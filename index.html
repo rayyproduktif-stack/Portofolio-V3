@@ -1,0 +1,416 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Portfolio - Rayy</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
+
+<!-- FONT AWESOME -->
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+/>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="brand">Portfolio</div>
+    <nav class="navlinks">
+      <a href="#home" data-scroll="home" class="active">Home</a>
+      <a href="#about" data-scroll="about">About</a>
+      <a href="#projects" data-scroll="projects">Portfolio</a>
+      <a href="#contact" data-scroll="contact">Contact</a>
+      <a href="#music-player" data-scroll="music">Music</a>
+    </nav>
+  </header>
+
+  <!-- Floating shapes background -->
+  <div class="shapes">
+    <span class="shape circle"></span>
+    <span class="shape square"></span>
+    <span class="shape diamond"></span>
+    <span class="shape smallcircle"></span>
+    <span class="shape square2"></span>
+  </div>
+
+  <main>
+    <!-- HOME -->
+    <section id="home" class="section home">
+      <div class="container home-grid">
+        <div class="intro">
+          <h1>Hi, I'm <span class="neon-text">Rayy</span></h1>
+          <h3 class="role">Frontend Developer</h3>
+          <p class="desc">
+            Saya seorang Web Developer dan Editor dengan pengalaman 1 bulan. Khususnya pada Front-End.
+            Saya dapat membuat website sederhana serta memiliki pengalaman editing video & photo, serta
+            penetration testing dasar.
+          </p>
+
+<div class="socials">
+  <a href="https://www.tiktok.com/@mryhn_10?_t=ZS-90laVodD1Mm&_r=1" target="_blank" class="icon"><i class="fab fa-tiktok"></i></a>
+  <a href="https://www.youtube.com/@akunmu" target="_blank" class="icon"><i class="fab fa-youtube"></i></a>
+  <a href="https://discord.gg/motionime" target="_blank" class="icon"><i class="fab fa-discord"></i></a>
+  <a href="https://www.instagram.com/mryhn10_" target="_blank" class="icon"><i class="fab fa-instagram"></i></a>
+</div>
+
+          <a href="#contact" class="btn btn-primary" data-scroll="contact">Contact Me</a>
+        </div>
+
+        <div class="avatar-wrap">
+          <div class="avatar-neon">
+            <img src="avatar.jpg" alt="avatar" class="avatar" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section about">
+      <h2 class="section-title neon-text">About Me</h2>
+      <div class="about-grid container">
+        <div class="about-left">
+          <div class="photo-card neon-border">
+            <img src="avatar2.jpg" alt="avatar big" />
+          </div>
+        </div>
+        <div class="about-right neon-box">
+          <h3>Passionate Developer</h3>
+          <p>
+            Saya adalah Siswa Smk Fajar Sentosa yang memiliki passion dalam dunia teknologi computer dan jaringan.
+            Saya belajar HTML, CSS, JavaScript, dan PHP. Tertarik dengan jasa produktif yang di berikan sekolah yaitu web design.
+          </p>
+
+          <div class="skills">
+            <div class="skill">
+              <span>HTML</span>
+              <div class="skill-bar"><div class="bar" style="width:10%"></div></div>
+            </div>
+            <div class="skill">
+              <span>CSS</span>
+              <div class="skill-bar"><div class="bar" style="width:10%"></div></div>
+            </div>
+            <div class="skill">
+              <span>JavaScript</span>
+              <div class="skill-bar"><div class="bar" style="width:0%"></div></div>
+            </div>
+            <div class="skill">
+              <span>PHP</span>
+              <div class="skill-bar"><div class="bar" style="width:0%"></div></div>
+            </div>
+          </div>
+
+<a href="assets/CV-Asep.pdf" class="download-btn">Download CV</a>
+        </div>
+      </div>
+    </section>
+
+<!-- FILTER BUTTONS -->
+<div class="project-filter container">
+  <button class="filter active" data-target="projects">Project</button>
+  <button class="filter" data-target="certificates">Certificate</button>
+  <button class="filter" data-target="techstack">Tech Stack</button>
+</div>
+
+<!-- PROJECTS -->
+<section id="projects" class="content-section">
+  <h2 class="section-title neon-text">Projects</h2>
+  <div class="project-grid container">
+    <div class="project-card">
+      <img src="project1.png" alt="project 1" />
+      <div class="card-body">
+        <h4>Foto Kenangan 📸 Website</h4>
+        <p>Berisi Kenangan Indah Bersama Ornag Yang Paling Saya Sayang dan Paling Saya Cintai 🫶🏻</p>
+        <div class="card-actions">
+          <a class="link">Live Demo</a>
+      <a href="https://portofolio-8y3.pages.dev/" class="btn btn-small" target="_blank">Detail</a>
+        </div>
+      </div>
+    </div>
+    <div class="project-card">
+      <img src="project2.png" alt="project 2" />
+      <div class="card-body">
+        <h4>Portfolio Template</h4>
+        <p>Responsive portfolio website for creative professionals</p>
+        <div class="card-actions">
+          <a class="link">Live Demo</a>
+          <button class="btn btn-small open-detail">Detail</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CERTIFICATES -->
+<section id="certificates" class="content-section" hidden>
+  <h2 class="section-title neon-text">Certificates</h2>
+  <div class="project-grid container">
+    <div class="project-card">
+      <img src="assets/cert1.jpg" alt="cert" />
+      <div class="card-body">
+        <h4>Web Development Certificate</h4>
+        <p>Issued by Dicoding Indonesia</p>
+        <div class="card-actions">
+          <button class="btn btn-small open-detail">Detail</button>
+        </div>
+      </div>
+    </div>
+    <div class="project-card">
+      <img src="assets/cert2.jpg" alt="cert" />
+      <div class="card-body">
+        <h4>Cyber Security Fundamentals</h4>
+        <p>Completed online course about web security basics</p>
+        <div class="card-actions">
+          <button class="btn btn-small open-detail">Detail</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TECH STACK -->
+<!-- TECH STACK -->
+<section id="techstack" class="content-section" hidden>
+  <h2 class="section-title neon-text">Tech Stack</h2>
+  <div class="tech-grid container">
+    <div class="tech-item">
+      <img src="html.png" alt="HTML">
+      <p>HTML</p>
+    </div>
+    <div class="tech-item">
+      <img src="css.png" alt="CSS">
+      <p>CSS</p>
+    </div>
+    <div class="tech-item">
+      <img src="java.png" alt="JavaScript">
+      <p>JavaScript</p>
+    </div>
+    <div class="tech-item">
+      <img src="php.png" alt="PHP">
+      <p>PHP</p>
+    </div>
+    <div class="tech-item">
+      <img src="react.png" alt="React">
+      <p>React</p>
+    </div>
+    <div class="tech-item">
+      <img src="node.png" alt="Node.js">
+      <p>Node.js</p>
+    </div>
+  </div>
+</section>
+
+<script>
+  const filters = document.querySelectorAll('.filter');
+  const sections = document.querySelectorAll('.content-section');
+
+  filters.forEach(btn => {
+    btn.addEventListener('click', () => {
+      // ubah tombol aktif
+      filters.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+
+      // tampilkan section yang sesuai
+      const targetId = btn.dataset.target;
+      sections.forEach(sec => {
+        if (sec.id === targetId) {
+          sec.hidden = false;
+          sec.classList.add('show');
+        } else {
+          sec.hidden = true;
+          sec.classList.remove('show');
+        }
+      });
+    });
+  });
+</script>
+
+<!-- MUSIC PLAYER -->
+<section id="music-player" class="music-section">
+  <h2 class="section-title neon-text">🎵 Playing Music</h2>
+  
+  <div class="carousel">
+    <div class="card active" data-audio="v4.www-y2mate.blog - Sabar - Sadewok (Official Music Video) (320 KBps).m4a">
+      <img src="cover1.jpg" alt="Sabar Sadewok">
+      <h3>Sabar Sadewok</h3>
+      <p>Sadewok</p>
+    </div>
+    <div class="card next" data-audio="DJ TEMANKU SEMUA PADA JAHAT TANTE  DJ TANTE CULIK AKU DONG VIRAL TIKTOK TERBARU 2024.mp3">
+      <img src="cover2.jpeg" alt="Starboy">
+      <h3>DJ TEMANKU</h3>
+      <p>Lagu Penyemangat</p>
+    </div>
+    <div class="card prev" data-audio="Vadesta Ft. Destya Eka - Saktenane (Official Music Video).mp3">
+      <img src="cover3.png" alt="Save Your Tears">
+      <h3>Sektenane</h3>
+      <p>Vadesta</p>
+    </div>
+  </div>
+
+  <div class="player neon-box">
+    <button id="prev"><i class="fas fa-backward"></i></button>
+    <button id="play"><i class="fas fa-play"></i></button>
+    <button id="next"><i class="fas fa-forward"></i></button>
+    <input type="range" id="volume" min="0" max="1" step="0.01" value="0.5">
+  </div>
+
+  <audio id="audio"></audio>
+</section>
+
+<script>
+const cards = document.querySelectorAll('.card');
+const nextBtn = document.getElementById('next');
+const prevBtn = document.getElementById('prev');
+const playBtn = document.getElementById('play');
+const audio = document.getElementById('audio');
+const volume = document.getElementById('volume');
+
+let current = 0;
+let isPlaying = false;
+
+function updateCarousel() {
+  cards.forEach((card, i) => {
+    card.classList.remove('active', 'next', 'prev');
+  });
+
+  const next = (current + 1) % cards.length;
+  const prev = (current - 1 + cards.length) % cards.length;
+
+  cards[current].classList.add('active');
+  cards[next].classList.add('next');
+  cards[prev].classList.add('prev');
+
+  // ganti audio saat kartu berubah
+  const newAudioSrc = cards[current].getAttribute('data-audio');
+  audio.src = newAudioSrc;
+
+  // kalau sedang play, auto ganti lagu berikutnya
+  if (isPlaying) {
+    audio.play();
+  }
+}
+
+nextBtn.addEventListener('click', () => {
+  current = (current + 1) % cards.length;
+  updateCarousel();
+});
+
+prevBtn.addEventListener('click', () => {
+  current = (current - 1 + cards.length) % cards.length;
+  updateCarousel();
+});
+
+playBtn.addEventListener('click', () => {
+  if (!isPlaying) {
+    audio.play();
+    playBtn.innerHTML = '<i class="fas fa-pause"></i>';
+  } else {
+    audio.pause();
+    playBtn.innerHTML = '<i class="fas fa-play"></i>';
+  }
+  isPlaying = !isPlaying;
+});
+
+volume.addEventListener('input', () => {
+  audio.volume = volume.value;
+});
+
+updateCarousel();
+</script>
+
+<div class="running-lyrics">
+  <div class="lyrics-line">
+    Temanku semua pada jahat tante •
+    Aku lagi susah mereka gak ada •
+    Coba kalo lagi jaya •
+    Aku dipuja pujanya tante •
+    Sudah terbiasa terjadi tante •
+    Teman datang ketika lagi butuh saja •
+    Coba kalo lagi susah •
+    Mereka semua menghilang tante •
+  </div>
+</div>
+
+  <!-- CONTACT -->
+    <section id="contact" class="section contact">
+      <h2 class="section-title neon-text">Contact</h2>
+      <div class="contact-card container neon-box">
+        <form id="contact-form">
+          <input type="text" placeholder="Nama" required />
+          <input type="email" placeholder="Email" required />
+          <textarea placeholder="Pesan" rows="5" required></textarea>
+
+<div class="socials small">
+  <a href="https://www.tiktok.com/@mryhn_10?_t=ZS-90laVodD1Mm&_r=1" target="_blank" class="icon">
+    <i class="fa-brands fa-tiktok"></i>
+  </a>
+  <a href="https://www.youtube.com/@usernamekamu" target="_blank" class="icon">
+    <i class="fa-brands fa-youtube"></i>
+  </a>
+  <a href="https://www.instagram.com/mryhn10_" target="_blank" class="icon">
+    <i class="fa-brands fa-instagram"></i>
+  </a>
+</div>
+          <button type="submit" class="btn btn-primary full">Kirim</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+<script>
+document.getElementById("contact-form").addEventListener("submit", function(event){
+  event.preventDefault();
+
+  // Ambil elemen input (urut sesuai yang ada di HTML kamu)
+  const inputs = document.querySelectorAll("#contact-form input, #contact-form textarea");
+  const name = inputs[0].value;
+  const email = inputs[1].value;
+  const message = inputs[2].value;
+
+  // Nomor WhatsApp kamu (ubah ke punyamu)
+  const phone = "6285718101185";
+
+  // Format pesan untuk WhatsApp
+  const text = `Halo, saya *${name}* (%0AEmail: ${email})%0A%0A${message}`;
+
+  // Buat link ke WhatsApp
+  const whatsappURL = `https://wa.me/${phone}?text=${text}`;
+
+  // Buka WhatsApp
+  window.open(whatsappURL, "_blank");
+});
+</script>
+
+  </main>
+
+  <!-- Modal (project detail) -->
+  <div id="modal" class="modal hidden">
+    <div class="modal-inner neon-border">
+      <button class="modal-close">&times;</button>
+      <img src="" alt="project large" id="modal-img" />
+      <h3 id="modal-title">Title</h3>
+      <p id="modal-desc">Project description goes here. Technologies: HTML5, CSS3, JavaScript...</p>
+      <button class="btn btn-primary" id="modal-back">Kembali</button>
+    </div>
+    <div class="modal-backdrop"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+<script>
+  // Smooth scroll semua link yang diawali #
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+      e.preventDefault();
+      document.querySelector(this.getAttribute('href')).scrollIntoView({
+        behavior: 'smooth'
+      });
+    });
+  });
+</script>
